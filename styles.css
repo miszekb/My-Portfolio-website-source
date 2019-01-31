@@ -1,0 +1,186 @@
+.main_container {
+  margin: 0 auto;
+  margin-top: 15%;
+  margin-left: 35%;
+  position: fixed;
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url("fonts/Quicksand-Regular.otf") format("opentype");
+}
+
+.first_line {
+    postion: fixed;
+
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    background-image: url('images/logo.PNG');
+    background-size: cover;                      
+    background-repeat: no-repeat;
+    background-position: center center; 
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.social_media_button_1 {
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+    background-image: url('images/github.PNG');
+    background-size: cover;                      
+    background-repeat: no-repeat;
+    background-position: center center; 
+    display: inline-block;
+    margin-left: 260px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s;
+
+}
+
+.social_media_button_2 {
+    height: 120px;
+    width: 120px;
+    border-radius: 30px;
+    background-image: url('images/facebook.PNG');
+    background-size: cover;                      
+    background-repeat: no-repeat;
+    background-position: center center; 
+    display: inline-block;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.social_media_button_3 {
+    height: 120px;
+    width: 120px;
+    border-radius: 30px;
+    background-image: url('images/linkedin.webp');
+    background-size: cover;                      
+    background-repeat: no-repeat;
+    background-position: center center; 
+    display: inline-block;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.second_line {
+
+}
+
+.menu_buttons_container {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.menu_button {
+    width: 400px;
+    height: 160px;
+    background-color: #5F9CCF;
+    border-radius: 45px;
+    color: white;
+    font-size: 48px;
+    font-family: 'Advent Pro', sans-serif;    
+    text-align: center;
+    vertical-align: middle;
+    line-height: 160px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu_button_2 {
+    width: 400px;
+    height: 160px;
+    background-color: #5F9CCF;
+    border-radius: 45px;
+    color: white;
+    font-size: 48px;
+    font-family: 'Advent Pro', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 160px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.social_media_button_1:hover {
+    opacity: 1;
+}
+.social_media_button_2:hover {
+    opacity: 1;
+}
+.social_media_button_3:hover {
+    opacity: 1;
+}
+.menu_button:hover {
+    opacity: 1;
+}
+.menu_button_2:hover {
+    opacity: 1;
+}
+
+.name {
+    display: inline-block;
+    font-size: 170px;
+    color: #7D7979;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 50px;
+    line-height: 190px;
+    margin-top: 40px;   
+}
+
+.header {
+    font-family: 'Quicksand', 'sans-serif';
+    font-size: 90px;
+    height: 20%;
+    margin-left: 12%;
+    margin-top: 10%;
+}
+
+.text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    width: 60%;
+    height: 20%;
+    margin-left: 12%;
+}
+
+.back_button {
+    width: 200px;
+    height: 100px;
+    background-color: #5F9CCF;
+    border-radius: 45px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Advent Pro', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s;
+    display: inline-block;
+    margin-left: 76%;
+}
+
+.back_button:hover {
+    opacity: 1;
+}
