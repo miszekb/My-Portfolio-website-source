@@ -178,7 +178,9 @@ a {
     opacity: 0.8;
     transition: 0.3s;
     display: inline-block;
-    margin-left: 76%;
+    position: fixed;
+    margin-left: 78%;
+    margin-top: 200px;
 }
 
 .back_button:hover {
