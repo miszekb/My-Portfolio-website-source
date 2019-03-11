@@ -1,17 +1,17 @@
-.main_container {
-  margin: 0 auto;
-  margin-top: 15%;
-  margin-left: 35%;
-  position: fixed;
-}
 
 @font-face {
-    font-family: Quicksand;
+    font-family: Quicksand, sans-serif;
     src: url("fonts/Quicksand-Regular.otf") format("opentype");
 }
 
+
+.main_container {
+  margin: 0 auto;
+  margin-left: 22%;
+  margin-top: 4%;
+}
+
 .first_line {
-    postion: fixed;
 
 }
 
@@ -89,8 +89,8 @@
     background-color: #5F9CCF;
     border-radius: 45px;
     color: white;
-    font-size: 48px;
-    font-family: 'Advent Pro', sans-serif;    
+    font-size: 45px;
+    font-family: 'Quicksand', sans-serif;    
     text-align: center;
     vertical-align: middle;
     line-height: 160px;
@@ -111,8 +111,8 @@ a {
     background-color: #5F9CCF;
     border-radius: 45px;
     color: white;
-    font-size: 48px;
-    font-family: 'Advent Pro', sans-serif;
+    font-size: 45px;
+    font-family: 'Quicksand', sans-serif;
     text-align: center;
     vertical-align: middle;
     line-height: 160px;
@@ -170,7 +170,7 @@ a {
     border-radius: 45px;
     color: white;
     font-size: 30px;
-    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     text-align: center;
     vertical-align: middle;
     line-height: 100px;
@@ -180,7 +180,7 @@ a {
     display: inline-block;
     position: fixed;
     margin-left: 78%;
-    margin-top: 200px;
+    margin-top: 50px;
 }
 
 .back_button:hover {
