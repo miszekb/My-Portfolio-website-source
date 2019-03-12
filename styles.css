@@ -1,10 +1,4 @@
 
-@font-face {
-    font-family: Quicksand, sans-serif;
-    src: url("fonts/Quicksand-Regular.otf") format("opentype");
-}
-
-
 .main_container {
   margin: 0 auto;
   margin-left: 22%;
@@ -156,7 +150,7 @@ a {
 }
 
 .text {
-    font-family: 'Quicksand', sans-serif;
+    font-family: Arial;
     font-size: 20px;
     width: 60%;
     height: 20%;
