@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 @media only screen and (max-width: 5000px) {
     body {
          background: linear-gradient(-5deg, rgb(255, 255, 255)79%, rgb(88, 110, 134) 79%);
@@ -170,10 +170,23 @@
       }
 
       .welcome {
-          font-size: 120px;
+        background-image: url(https://media.giphy.com/media/kDkNFlVyQXfSNSv1AE/giphy.gif);
+        background-size: cover;
+        color: transparent;
+        -moz-background-clip: text;
+        -webkit-background-clip: text;
+        font-size: 200px;
+        padding-top: 200px;
+        margin-left: 27%;
+        font-family: 'Quicksand', sans-serif;
+
+      }
+
+      .textWelcome {
+          font-size: 27px;
+          margin-left: 29%;
           font-family: 'Quicksand', sans-serif;
-          margin-top:10%;
-          margin-left: 15%;
+
       }
 }
 
