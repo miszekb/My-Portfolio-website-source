@@ -188,5 +188,16 @@
           font-family: 'Quicksand', sans-serif;
 
       }
+
+      .pictureZoom {
+          z-index: 2;
+          height: 100%;
+          width: 100%;
+          background-color: black;
+          opacity: 0.5;
+          position: fixed;
+          left: 0;
+          top: 0;
+      }
 }
 
