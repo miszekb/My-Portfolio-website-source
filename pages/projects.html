@@ -11,18 +11,26 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 </body>
-    <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:20%">
-        <h3 class="menuTitle"><img src="../images/logo.png"/></h3>
-        <a href="projects.html" class="menuItem">My Projects</a>
-        <a href="about.html" class="menuItem">About Me</a>
-        <a href="contact.html" class="menuItem">Contact</a>
-        <div class="socialMediaButtons">
-             <div onclick="githubButtonHandler()" class="social_media_button_1"></div>
-             <div class="social_media_button_2"></div>
-             <div onclick="linkedinButtonHandler()" class="social_media_button_3"></div>
+<div class="sidebar-menu">
+        <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:20%">
+            <h3 class="menuTitle"><img class="logo" src="../images/logo.png"/></h3>
+            <a href="projects.html" class="menuItem">My Projects</a>
+            <a href="about.html" class="menuItem">About Me</a>
+            <a href="contact.html" class="menuItem">Contact</a>
+            <div class="socialMediaButtons">
+                <div onclick="githubButtonHandler()" class="social_media_button_1"></div>
+                <div class="social_media_button_2"></div>
+                <div onclick="linkedinButtonHandler()" class="social_media_button_3"></div>
+            </div>
         </div>
-    </div>
+    </div>    
+
     <div class="contentWrapper">
+            <div class="burger-icon">
+                    <div class="burger-parts"></div>
+                    <div class="burger-parts"></div>
+                    <div class="burger-parts"></div>
+            </div>
         <div class="header">
         My projects
         </div>
@@ -33,9 +41,6 @@
                     <div class="projectButtons">
                         <a href="http://21studios.cba.pl" target="_blank"><button class="Button">Check Website</button></a>
                     </div>
-                </div>
-                <div onclick="pictureZoom()" class="projectImg" id="projectImg1">
-                    <img src="http://21studios.cba.pl/3.PNG" width="70%"/>
                 </div>
                
             </div>
