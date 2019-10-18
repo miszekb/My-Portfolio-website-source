@@ -6,23 +6,63 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <script type="text/javascript" src="../scripts/projects.js"></script>
+    <script type="text/javascript" src="../scripts/menu.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
-</body>
-    <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:20%">
-        <h3 class="menuTitle"><img src="../images/logo.png"/></h3>
+<body onload="activate();">
+    <div class="sidebar-menu">
+        <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:20%">
+            <h3 class="menuTitle"><img class="logo" src="../images/logo.png"/></h3>
+            <a href="projects.html" class="menuItem">My Projects</a>
+            <a href="about.html" class="menuItem">About Me</a>
+            <a href="contact.html" class="menuItem">Contact</a>
+            <div class="socialMediaButtons">
+                <div onclick="githubButtonHandler()" class="social_media_button_1"></div>
+                <div class="social_media_button_2"></div>
+                <div onclick="linkedinButtonHandler()" class="social_media_button_3"></div>
+            </div>
+        </div>
+    </div>    
+    <div class="burger-menu">
         <a href="projects.html" class="menuItem">My Projects</a>
         <a href="about.html" class="menuItem">About Me</a>
         <a href="contact.html" class="menuItem">Contact</a>
-        <div class="socialMediaButtons">
-             <div onclick="githubButtonHandler()" class="social_media_button_1"></div>
-             <div class="social_media_button_2"></div>
-             <div onclick="linkedinButtonHandler()" class="social_media_button_3"></div>
-        </div>
     </div>
     <div class="contentWrapper">
+        <div class="menu-burger">
+            <button class="menu-exit">X</button>
+            <div class="burger-icon">
+                <div class="burger-parts"></div>
+                <div class="burger-parts"></div>
+                <div class="burger-parts"></div>
+            </div>
+    
+            <button class="menu-exit"></button>
+            <ul class="menu-list">
+            <li>
+                <a href="index.html">
+                    <div class="button">Main Site</div>
+                </a>
+            </li>
+            <li>
+                <a href="about.html">
+                    <div class="button">About Me</div>
+                </a>
+            </li>
+            <li>
+                <a href="projects.html">
+                    <div class="button">My Projects</div>
+                </a>
+            </li>
+            <li>
+                <a href="contact.html">
+                    <div class="button">Contact</div>
+                </a>
+            </li>
+        </ul>
+        </div>
         <div class="welcome">
             Welcome!
         </div>
