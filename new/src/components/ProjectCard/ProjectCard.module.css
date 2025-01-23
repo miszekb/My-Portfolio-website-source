@@ -1,0 +1,48 @@
+.projectCardContainer {
+    cursor: pointer;
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    background-color: rgb(59, 59, 59);
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(190, 190, 190, 1);
+-moz-box-shadow: 0px 0px 24px 0px rgba(190, 190, 190, 1);
+box-shadow: 0px 0px 24px 0px rgba(190, 190, 190, 0.1);
+}
+
+.cardContent {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projectThumbnail {
+    background-color: black;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.projectThumbnail img {
+    height: 100%;
+}
+
+.shortDescription {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.button {
+    cursor: pointer;
+    padding: 12px;
+    font-size: 17px;
+}

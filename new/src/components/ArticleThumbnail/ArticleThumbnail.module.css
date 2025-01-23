@@ -1,0 +1,29 @@
+.articleThumbnail {
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.thumbnailImage {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    opacity: 0.7;
+}
+
+.articleInfo {
+    background-color: rgb(46, 46, 46);
+    padding: 0 5px;
+    height: 50%;
+    width: 100%;
+}
+
+.publicationDate {
+    opacity: 0.5;
+    padding: 3px;
+}

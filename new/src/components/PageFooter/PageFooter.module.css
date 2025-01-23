@@ -1,0 +1,28 @@
+.upperBarContainer {
+    position: fixed;
+    background-color: rgb(53, 53, 53);
+    left: 0;
+    bottom: 0;
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+.optionsContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px
+}
+
+.menuOption {
+    cursor: pointer;
+    width: 60px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.menuOption:hover svg {
+    fill: #aaa
+}

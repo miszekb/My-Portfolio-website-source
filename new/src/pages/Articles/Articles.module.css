@@ -1,0 +1,35 @@
+.articlesContainer {
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.articlesPagination {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+
+.articlesGrid {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 100% 100% 100%; 
+    row-gap: 20px;
+}
+
+.articlesItem {
+    width: 300px;
+    height: 200px;
+    background-color: black;
+}
+
+.changePageButton {
+    width: 50px;
+}
