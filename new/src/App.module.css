@@ -11,4 +11,11 @@
   max-height: calc(100% - 160px);
   overflow-y: scroll;
   overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.contentContainer {
+  max-width: 1300px;
+
 }

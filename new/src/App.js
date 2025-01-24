@@ -12,12 +12,14 @@ function App() {
       <div className={styles.pageContainer}>
         <UpperBar/>
         <div className={styles.currentPageContent} style={{ paddingTop: 50 }}>
-          <Routes>
-            <Route path="/" element={<MainPage/>}/>
-            <Route path="/projects" element={<Projects/>}/>
-            <Route path="/articles" element={<Articles/>}/>
-            {/* <Route path="/contact" element={<MainPage/>}/> */}
-          </Routes>
+          <div className={styles.contentContainer}>
+            <Routes>
+              <Route path="/" element={<MainPage/>}/>
+              <Route path="/projects" element={<Projects/>}/>
+              <Route path="/articles" element={<Articles/>}/>
+              {/* <Route path="/contact" element={<MainPage/>}/> */}
+            </Routes>
+          </div>
           <PageFooter/>
         </div>
       </div>
