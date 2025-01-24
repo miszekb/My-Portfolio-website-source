@@ -18,8 +18,8 @@ function App() {
             <Route path="/articles" element={<Articles/>}/>
             {/* <Route path="/contact" element={<MainPage/>}/> */}
           </Routes>
+          <PageFooter/>
         </div>
-        <PageFooter/>
       </div>
     </BrowserRouter>
   );

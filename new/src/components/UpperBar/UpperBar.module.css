@@ -13,6 +13,10 @@
     box-shadow: 0px 3px 28px 5px  rgba(255, 255, 255, 0.1);
 }
 
+.logo {
+    padding: 15px 10px 0 50px;
+}
+
 .upperBarContainer a {
     text-decoration: none;
     color: rgb(231, 231, 231);
@@ -31,4 +35,7 @@
     height: 100%;
     text-align: center;
     font-size: 22px;
+}
+.menuOption:hover {
+    font-weight: bold;
 }

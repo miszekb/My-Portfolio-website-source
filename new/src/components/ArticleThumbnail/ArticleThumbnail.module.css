@@ -1,26 +1,41 @@
 .articleThumbnail {
     width: 300px;
-    height: 200px;
+    height: 220px;
     background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(190, 190, 190, 1);
+    -moz-box-shadow: 0px 0px 24px 0px rgba(190, 190, 190, 1);
+    box-shadow: 0px 0px 24px 0px rgba(190, 190, 190, 0.1);
+    border-radius: 5px;
+}
+
+.articleThumbnail:hover {
+    width: 300px;
+    height: 220px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(190, 190, 190, 1);
+    -moz-box-shadow: 0px 0px 24px 0px rgba(190, 190, 190, 1);
+    box-shadow: 0px 0px 24px 0px rgba(190, 190, 190, 0.3);
+    border-radius: 5px;
+    
 }
 
 .thumbnailImage {
-    display: block;
-    width: auto;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
     opacity: 0.7;
 }
 
 .articleInfo {
     background-color: rgb(46, 46, 46);
     padding: 0 5px;
-    height: 50%;
-    width: 100%;
+    border-radius: 5px;
+    position: relative;
 }
 
 .publicationDate {
