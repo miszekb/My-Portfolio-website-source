@@ -2,10 +2,15 @@ import styles from './PageFooter.module.css';
 import { ReactComponent as GithubLogo } from './github.svg';
 import { ReactComponent as LinkedinLogo } from './linkedin.svg';
 import { ReactComponent as EmailLogo } from './email.svg';
+import { useTranslation } from 'react-i18next';
 
 export const PageFooter = () => {
+    const { i18n } = useTranslation();
+
     const onLanguageChange = (languageCode) => {
-        //TODO: implement language change
+        if (i18n.language !== languageCode) {
+            i18n.changeLanguage(languageCode);
+        }
     }
 
     return <div className={styles.upperBarContainer}>

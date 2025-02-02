@@ -60,6 +60,10 @@
     display: flex;
 }
 
+.languageOptionsContainer {
+    cursor: pointer;
+}
+
 @media (max-width: 1045px) {
     .languageOptionsContainer {
         position: absolute;
