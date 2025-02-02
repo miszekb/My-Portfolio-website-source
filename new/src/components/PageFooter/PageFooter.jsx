@@ -4,6 +4,10 @@ import { ReactComponent as LinkedinLogo } from './linkedin.svg';
 import { ReactComponent as EmailLogo } from './email.svg';
 
 export const PageFooter = () => {
+    const onLanguageChange = (languageCode) => {
+        //TODO: implement language change
+    }
+
     return <div className={styles.upperBarContainer}>
         <div className={styles.optionsContainer}>
             <div className={styles.menuOption}>
@@ -21,6 +25,10 @@ export const PageFooter = () => {
                     <EmailLogo width={35} height={42}/>
                 </a>
             </div>
+        </div>
+        <div className={styles.languageOptionsContainer}>
+            <div onClick={() => onLanguageChange('pl')}>🇵🇱&emsp;</div>
+            <div onClick={() => onLanguageChange('en')}>🇬🇧&emsp;</div>
         </div>
     </div>
 }

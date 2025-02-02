@@ -27,7 +27,7 @@ export const Shape3D = () => {
 
     useFrame((state, delta) => {
         //meshRef.current.rotation.y += delta / 6;
-        setGlowIntensity(Math.sin(20 * delta))
+        setGlowIntensity(Math.round(33 * delta))
     })
 
     const [earthTexture] = useLoader(TextureLoader, ['./earth_texture.jpg']);
@@ -83,10 +83,10 @@ export const Shape3D = () => {
             onPointerDown={(event) => modifyPosition(event)}
         >
                 <boxGeometry args={[2.7, 2.1, 0.5]} />
-                <FakeGlowMaterial falloff={2}
-                glowInternalRadius={4}
+                <FakeGlowMaterial falloff={1}
+                glowInternalRadius={10}
                 opacity={glowIntensity}
-                glowSharpness={0.9}
+                glowSharpness={0.3}
                 depthTest={true}
                 />
 
@@ -108,6 +108,6 @@ export const Shape3D = () => {
             />
         </mesh>
         {/* <axesHelper args={[5]}/> */}
-        <OrbitControls/>
+        <OrbitControls maxZoom={1} minZoom={0}/>
     </>
 }

@@ -4,6 +4,7 @@ import styles from './Articles.module.css';
 
 const Articles = () => {
     return <div className={styles.articlesContainer}>
+        <h1 className={styles.pageTitle}>My Articles</h1>
         <div className={styles.articlesGrid}>
             <Link to="/articles/1"><ArticleThumbnail/></Link>
             <Link to="/articles/2"><ArticleThumbnail/></Link>

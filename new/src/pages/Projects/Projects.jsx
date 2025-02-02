@@ -5,6 +5,7 @@ const Projects = () => {
 
     return <div className={styles.projectsContainer}>
         <div className={styles.pageContent}>
+            <h1 className={styles.pageTitle}>My Projects</h1>
             <ProjectCard/>
             <ProjectCard/>
             <ProjectCard/>

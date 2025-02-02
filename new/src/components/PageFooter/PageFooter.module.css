@@ -4,9 +4,6 @@
     left: 0;
     bottom: 0;
     width: 100vw;
-    display: flex;
-    justify-content: center;
-
 }
 
 .optionsContainer {
@@ -51,4 +48,38 @@
 
 .menuOption:hover svg {
     fill: #aaa
+}
+
+.languageOptionsContainer {
+    position: absolute;
+    height: 70%;
+    bottom: 0;
+    right: 30px;
+    z-index: 4;
+    font-size: 30px;
+    display: flex;
+}
+
+@media (max-width: 1045px) {
+    .languageOptionsContainer {
+        position: absolute;
+        height: 80%;
+        bottom: 0;
+        right: 30px;
+        z-index: 4;
+        font-size: 30px;
+        display: flex;
+    }
+}
+
+@media (max-width: 670px) {
+    .languageOptionsContainer {
+        position: absolute;
+        height: 70%;
+        bottom: 0;
+        right: 0px;
+        z-index: 4;
+        font-size: 20px;
+        display: flex;
+    }
 }
