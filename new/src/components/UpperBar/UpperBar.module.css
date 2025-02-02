@@ -14,7 +14,9 @@
 }
 
 .logo {
-    padding: 15px 10px 0 50px;
+    position: fixed;
+    left: 40px;
+    top: 15px
 }
 
 .upperBarContainer a {
@@ -22,12 +24,73 @@
     color: rgb(231, 231, 231);
 }
 
-.optionsContainer {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    margin: auto;
+@media (min-width: 1045px) {
+    .optionsContainer {
+        height: 100%;
+        display: flex;
+        /* justify-content: center; */
+        margin: auto;
+        margin-left: calc(auto - 150px);
+    }
+    .mobileMenu {
+        display: none;
+    }
 }
+  
+@media (max-width: 1045px) {
+    .optionsContainer {
+        display: none;
+    }
+
+    .mobileMenu {
+        height: 100%;
+        margin-top: 5px;
+        cursor: pointer
+    }
+
+    .upperBarContainer {
+        justify-content: right;
+        height: 50px;
+    }
+
+    .logo {
+        top: 8px;
+        left: 25px;
+    }
+
+    .logo svg {
+        width: 60px;
+    }
+
+    .mobileMenuContainer {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(53, 53, 53);
+        position: fixed;
+        top:50px;
+        left:0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .mobileMenuOptionsContainer {
+        margin: 20px auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobileMenuOptionsContainer a {
+        margin: 0 auto;
+    }
+
+    .mobileMenuOptionsContainer .menuOption {
+        width: 150px;
+        text-align: center;
+    }
+}
+
 
 .menuOption {
     padding: 25px;;

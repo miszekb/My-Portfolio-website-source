@@ -1,12 +1,13 @@
 .projectCardContainer {
     cursor: pointer;
-    width: 70%;
+    width: 90%;
     height: 500px;
     margin: auto;
+    margin-bottom: 20px;
     background-color: rgb(59, 59, 59);
     -webkit-box-shadow: 0px 0px 24px 0px rgba(190, 190, 190, 1);
--moz-box-shadow: 0px 0px 24px 0px rgba(190, 190, 190, 1);
-box-shadow: 0px 0px 24px 0px rgba(190, 190, 190, 0.1);
+    -moz-box-shadow: 0px 0px 24px 0px rgba(190, 190, 190, 1);
+    box-shadow: 0px 0px 24px 0px rgba(190, 190, 190, 0.1);
 }
 
 .cardContent {
@@ -20,7 +21,7 @@ box-shadow: 0px 0px 24px 0px rgba(190, 190, 190, 0.1);
     width: 50%;
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 110px;
 }
 
 .projectThumbnail img {
@@ -45,4 +46,36 @@ box-shadow: 0px 0px 24px 0px rgba(190, 190, 190, 0.1);
     cursor: pointer;
     padding: 12px;
     font-size: 17px;
+}
+
+@media (max-width: 1045px) {
+    .projectCardContainer {
+        height: 300px;
+        font-size: 13px;
+    }
+
+    .projectThumbnail {
+        width: 140px;
+        padding: 10px;
+
+    }
+
+    .shortDescription {
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .button {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    .buttonsContainer {
+        gap: 10px;
+    }
+    
+
 }

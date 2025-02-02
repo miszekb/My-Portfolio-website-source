@@ -1,18 +1,19 @@
+import { Link } from 'react-router';
 import ArticleThumbnail from '../../components/ArticleThumbnail/ArticleThumbnail';
 import styles from './Articles.module.css';
 
 const Articles = () => {
     return <div className={styles.articlesContainer}>
         <div className={styles.articlesGrid}>
-            <ArticleThumbnail/>
-            <ArticleThumbnail/>
-            <ArticleThumbnail/>
-            <ArticleThumbnail/>
-            <ArticleThumbnail/>
-            <ArticleThumbnail/>
-            <ArticleThumbnail/>
-            <ArticleThumbnail/>
-            <ArticleThumbnail/>
+            <Link to="/articles/1"><ArticleThumbnail/></Link>
+            <Link to="/articles/2"><ArticleThumbnail/></Link>
+            <Link to="/articles/3"><ArticleThumbnail/></Link>
+            <Link to="/articles/4"><ArticleThumbnail/></Link>
+            <Link to="/articles/5"><ArticleThumbnail/></Link>
+            <Link to="/articles/6"><ArticleThumbnail/></Link>
+            <Link to="/articles/7"><ArticleThumbnail/></Link>
+            <Link to="/articles/8"><ArticleThumbnail/></Link>
+            <Link to="/articles/9"><ArticleThumbnail/></Link>
         </div>
         <div className={styles.articlesPagination}>
             <button className={styles.changePageButton}>{'<-'}</button>

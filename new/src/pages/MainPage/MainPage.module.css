@@ -5,10 +5,17 @@
 
 .pageContent {
     margin-top: 40px;
-    width: 100%;
+    width: 90%;
     font-family: 'Courier New', Courier, monospace;
 }
 
 .pageContent canvas {
     height: 500px;
+}
+
+@media (max-width: 1045px) {
+    .pageContent {
+        margin-top: 0px;
+    }
+
 }

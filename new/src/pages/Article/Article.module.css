@@ -1,0 +1,8 @@
+.pageContent {
+    display: flex;
+    justify-content: center;
+}
+
+.markdownContainer {
+    width: 70%;
+}

@@ -1,6 +1,5 @@
 .articlesContainer {
     width: 100%;
-    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,12 +28,31 @@
     row-gap: 50px;
 }
 
-.articlesItem {
-    width: 300px;
-    height: 200px;
-    background-color: black;
-}
-
 .changePageButton {
     width: 50px;
+}
+
+.articlesGrid a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 1045px) {
+    .articlesItem {
+        width: 180px;
+        height: 100px;
+        background-color: black;
+    }
+
+    .articlesGrid {
+        gap:30px 15px;
+    }
+}
+
+@media (min-width: 1045px) {
+    .articlesItem {
+        width: 300px;
+        height: 200px;
+        background-color: black;
+    }
 }

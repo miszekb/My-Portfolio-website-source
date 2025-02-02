@@ -3,7 +3,6 @@
     background-color: rgb(53, 53, 53);
     left: 0;
     bottom: 0;
-    height: 80px;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -16,9 +15,36 @@
     margin-top: 20px
 }
 
+@media (min-width: 1045px) {
+    .menuOption {
+        width: 60px;
+    }    
+
+    .upperBarContainer {
+        height: 80px;
+    }
+}
+
+@media (max-width: 1045px) {
+    .menuOption {
+        width: 50px;
+    }
+    
+    .menuOption svg {
+        scale: 0.8;
+    }
+
+    .upperBarContainer {
+        height: 50px;
+    }
+
+    .optionsContainer {
+        margin-top: 10px
+    }
+}
+
 .menuOption {
     cursor: pointer;
-    width: 60px;
     text-align: center;
     font-size: 22px;
 }

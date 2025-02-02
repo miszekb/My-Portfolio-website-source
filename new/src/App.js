@@ -5,6 +5,7 @@ import MainPage from './pages/MainPage/MainPage';
 import { BrowserRouter, Route, Routes } from "react-router";
 import Projects from './pages/Projects/Projects';
 import Articles from './pages/Articles/Articles';
+import Article from './pages/Article/Article';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
               <Route path="/" element={<MainPage/>}/>
               <Route path="/projects" element={<Projects/>}/>
               <Route path="/articles" element={<Articles/>}/>
+              <Route path="/articles/:id" element={<Article/>}/>
               {/* <Route path="/contact" element={<MainPage/>}/> */}
             </Routes>
           </div>

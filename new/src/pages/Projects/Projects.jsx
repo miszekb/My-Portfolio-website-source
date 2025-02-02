@@ -6,6 +6,13 @@ const Projects = () => {
     return <div className={styles.projectsContainer}>
         <div className={styles.pageContent}>
             <ProjectCard/>
+            <ProjectCard/>
+            <ProjectCard/>
+            <ProjectCard/>
+            <ProjectCard/>
+            <ProjectCard/>
+            <ProjectCard/>
+            <ProjectCard/>
         </div>
     </div>;
 }
